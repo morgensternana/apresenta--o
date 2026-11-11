@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #f7f9f6;
+    color: #26382e;
+}
+
+
+header {
+    background: rgb(196, 243, 221);
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.logo {
+    color: #24754d;
+    font-size: 23px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+nav a {
+    color: #334b3b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #26945b;
+}
+
+
+.hero {
+    background: #e3f2e6;
+    padding: 75px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero h1 {
+    font-size: 43px;
+    color: #205e3c;
+    margin: 18px 0;
+}
+
+.hero p {
+    line-height: 1.7;
+    margin-bottom: 25px;
+    max-width: 600px;
+}
+
+.etiqueta {
+    color: #24754d;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.ilustracao {
+    font-size: 100px;
+}
+
+.botao {
+    display: inline-block;
+    background: #24754d;
+    color: white;
+    padding: 13px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.botao:hover, button:hover {
+    background: #175b38;
+}
+
+.claro {
+    background: white;
+    color: #24754d;
+}
+
+
+section {
+    padding: 55px 8%;
+    text-align: center;
+}
+
+section h2 {
+    color: #205e3c;
+    margin-bottom: 18px;
+}
+
+section > p {
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    flex: 1;
+    min-width: 220px;
+    max-width: 330px;
+    text-align: left;
+    color: #26382e;
+    text-decoration: none;
+    box-shadow: 0 3px 12px #00000010;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+}
+
+.card span:first-child {
+    font-size: 35px;
+}
+
+.card h3 {
+    color: #24754d;
+    margin: 12px 0;
+}
+
+.card p {
+    line-height: 1.6;
+    margin: 8px 0;
+}
+
+.card a {
+    display: inline-block;
+    color: #24754d;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+
+.mural {
+     background: rgb(196, 243, 221);
+}
+
+.filtros {
+    justify-content: center;
+    margin: 25px 0;
+}
+
+.filtros a {
+     background: #2f503f;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+.filtros a:hover {
+     background: #2f503f;
+}
+
+.pedidos {
+    margin-top: 55px;
+}
+
+.correspondencias strong {
+    display: inline-block;
+    color: #318f64;
+    background: #e3f5e8;
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: 12px;
+}
+
+
+.cadastro {
+     background: rgb(196, 243, 221);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d5dfd7;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+button {
+     background: #2f503f;
+    color: white;
+    padding: 13px;
+    border: none;
+    border-radius: 7px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.aviso {
+    margin-top: 30px;
+    font-size: 13px;
+    color: #3f4440;
+}
+
+
+footer {
+    background: #2f503f;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+    line-height: 2;
+}
+
+
+(max-width: 600px) {
+
+header {
+        flex-direction: column;
+        text-align: center;
+}
+
+nav {
+        justify-content: center;
+ }
+
+.hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 55px 6%;
+}
+
+.hero h1 {
+        font-size: 30px;
+}
+
+.ilustracao {
+        font-size: 75px;
+    }
+
+section {
+        padding: 40px 5%;
+}
+
+.cards {
+        flex-direction: column;
+        align-items: center;
+}
+
+.card {
+        width: 100%;
+        max-width: 100%;
+}
+
+.filtros {
+        display: flex;
+        flex-wrap: wrap;
+}
+}
